@@ -73,24 +73,21 @@ async function main() {
   const priceRows = [];
 
   for (const product of products) {
-    const currentPrice = product.current_price;
-    if (!currentPrice) continue;
-
-    const price = safePrice(currentPrice.price);
+    const price = safePrice(product.current_price);
     if (price <= 0) continue; // Skip entries with no valid price
 
-    const unitPriceRaw = currentPrice.unit_price;
+    const unitPriceRaw = product.current_unit_price;
     const unitPrice = unitPriceRaw != null ? safePrice(unitPriceRaw) : null;
 
     priceRows.push({
       productName: product.name ?? "Unknown",
       brand: product.brand ?? "",
       image: product.image ?? null,
-      store: currentPrice.store?.name ?? product.store?.name ?? "Unknown",
-      storeGroup: currentPrice.store?.group ?? product.store?.group ?? "",
+      store: product.store?.name ?? "Unknown",
+      storeGroup: product.store?.code ?? "",
       price: price,
       unitPrice: unitPrice,
-      unitPriceUnit: currentPrice.unit_price_quantity_unit ?? "stk",
+      unitPriceUnit: product.weight_unit ?? "stk",
     });
   }
 
