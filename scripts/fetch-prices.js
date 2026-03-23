@@ -54,6 +54,11 @@ async function searchPepsiMax() {
   return data.data ?? [];
 }
 
+function safePrice(val) {
+  const n = Number(val);
+  return isNaN(n) ? 0 : n;
+}
+
 async function main() {
   console.log("🛒 Fetching Pepsi Max prices for Ålesund...\n");
 
@@ -71,14 +76,20 @@ async function main() {
     const currentPrice = product.current_price;
     if (!currentPrice) continue;
 
+    const price = safePrice(currentPrice.price);
+    if (price <= 0) continue; // Skip entries with no valid price
+
+    const unitPriceRaw = currentPrice.unit_price;
+    const unitPrice = unitPriceRaw != null ? safePrice(unitPriceRaw) : null;
+
     priceRows.push({
       productName: product.name ?? "Unknown",
       brand: product.brand ?? "",
       image: product.image ?? null,
       store: currentPrice.store?.name ?? product.store?.name ?? "Unknown",
       storeGroup: currentPrice.store?.group ?? product.store?.group ?? "",
-      price: currentPrice.price,
-      unitPrice: currentPrice.unit_price ?? null,
+      price: price,
+      unitPrice: unitPrice,
       unitPriceUnit: currentPrice.unit_price_quantity_unit ?? "stk",
     });
   }
@@ -110,7 +121,8 @@ async function main() {
 
   console.log(`✅ Wrote ${priceRows.length} price entries to ${outPath}`);
   if (priceRows.length > 0) {
-    console.log(`🏆 Cheapest: ${priceRows[0].productName} – ${priceRows[0].price.toFixed(2)} kr at ${priceRows[0].store}`);
+    const cheapest = priceRows[0];
+    console.log(`🏆 Cheapest: ${cheapest.productName} – ${cheapest.price.toFixed(2)} kr at ${cheapest.store}`);
   }
 }
 
