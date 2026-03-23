@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>🥤 Pepsi Max Prisjeger – Ålesund</title>
+  <style>
+    :root {
+      --pepsi-blue: #004B93;
+      --pepsi-dark: #002D62;
+      --pepsi-light: #E8F0FE;
+      --bg: #f5f7fa;
+      --card-bg: #ffffff;
+      --text: #1a1a2e;
+      --text-muted: #6b7280;
+      --border: #e5e7eb;
+      --green: #16a34a;
+      --gold: #d97706;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+    }
+
+    .header {
+      background: linear-gradient(135deg, var(--pepsi-dark), var(--pepsi-blue));
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+
+    .header h1 { font-size: 2rem; margin-bottom: 0.25rem; }
+    .header p { opacity: 0.85; font-size: 1rem; }
+
+    .meta-bar {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      flex-wrap: wrap;
+      padding: 1rem;
+      background: var(--card-bg);
+      border-bottom: 1px solid var(--border);
+      font-size: 0.9rem;
+      color: var(--text-muted);
+    }
+
+    .meta-bar span { display: flex; align-items: center; gap: 0.35rem; }
+
+    .container { max-width: 960px; margin: 0 auto; padding: 1.5rem 1rem; }
+
+    .filter-bar {
+      display: flex;
+      gap: 0.75rem;
+      margin-bottom: 1.5rem;
+      flex-wrap: wrap;
+    }
+
+    .filter-bar input, .filter-bar select {
+      padding: 0.6rem 0.9rem;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      font-size: 0.95rem;
+      background: var(--card-bg);
+      flex: 1;
+      min-width: 180px;
+    }
+
+    .filter-bar input:focus, .filter-bar select:focus {
+      outline: none;
+      border-color: var(--pepsi-blue);
+      box-shadow: 0 0 0 3px rgba(0,75,147,0.12);
+    }
+
+    .card {
+      background: var(--card-bg);
+      border-radius: 12px;
+      border: 1px solid var(--border);
+      padding: 1rem 1.25rem;
+      margin-bottom: 0.75rem;
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      transition: box-shadow 0.15s;
+    }
+
+    .card:hover { box-shadow: 0 4px 12px rgba(0,0,0,0.06); }
+
+    .card.cheapest {
+      border-color: var(--green);
+      background: #f0fdf4;
+    }
+
+    .rank {
+      font-size: 1.3rem;
+      font-weight: 700;
+      color: var(--pepsi-blue);
+      min-width: 2.5rem;
+      text-align: center;
+    }
+
+    .card.cheapest .rank { color: var(--green); }
+
+    .card-img {
+      width: 56px;
+      height: 56px;
+      object-fit: contain;
+      border-radius: 6px;
+      background: var(--pepsi-light);
+      flex-shrink: 0;
+    }
+
+    .card-body { flex: 1; min-width: 0; }
+    .card-body .name { font-weight: 600; font-size: 1rem; }
+    .card-body .store { font-size: 0.85rem; color: var(--text-muted); margin-top: 2px; }
+
+    .card-price {
+      text-align: right;
+      flex-shrink: 0;
+    }
+
+    .card-price .price {
+      font-size: 1.3rem;
+      font-weight: 700;
+      color: var(--pepsi-dark);
+    }
+
+    .card-price .unit {
+      font-size: 0.78rem;
+      color: var(--text-muted);
+    }
+
+    .badge {
+      display: inline-block;
+      background: var(--green);
+      color: white;
+      font-size: 0.7rem;
+      font-weight: 700;
+      padding: 2px 8px;
+      border-radius: 999px;
+      margin-left: 0.5rem;
+      vertical-align: middle;
+    }
+
+    .empty {
+      text-align: center;
+      padding: 3rem 1rem;
+      color: var(--text-muted);
+    }
+
+    .footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      font-size: 0.8rem;
+      color: var(--text-muted);
+    }
+
+    .footer a { color: var(--pepsi-blue); }
+
+    @media (max-width: 600px) {
+      .header h1 { font-size: 1.5rem; }
+      .card { flex-wrap: wrap; }
+      .card-img { width: 44px; height: 44px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>🥤 Pepsi Max Prisjeger</h1>
+    <p>Laveste priser i Ålesund – oppdatert daglig</p>
+  </div>
+
+  <div class="meta-bar">
+    <span id="meta-updated">⏳ Laster...</span>
+    <span id="meta-products"></span>
+    <span id="meta-stores"></span>
+  </div>
+
+  <div class="container">
+    <div class="filter-bar">
+      <input type="text" id="search" placeholder="🔍 Søk etter produkt eller butikk..." />
+      <select id="sort">
+        <option value="price-asc">Pris: lav → høy</option>
+        <option value="price-desc">Pris: høy → lav</option>
+        <option value="name-asc">Navn: A → Å</option>
+        <option value="store-asc">Butikk: A → Å</option>
+      </select>
+    </div>
+
+    <div id="results">
+      <div class="empty">⏳ Laster prisdata...</div>
+    </div>
+  </div>
+
+  <div class="footer">
+    Prisdata fra <a href="https://kassal.app" target="_blank">Kassalapp</a>.
+    Oppdateres automatisk via GitHub Actions.<br/>
+    <a href="https://github.com/himmelfisk/pepsimax" target="_blank">Se kildekoden på GitHub</a>
+  </div>
+
+  <script>
+    const resultsEl = document.getElementById("results");
+    const searchEl = document.getElementById("search");
+    const sortEl = document.getElementById("sort");
+
+    let allPrices = [];
+
+    function esc(str) {
+      return String(str)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#039;");
+    }
+
+    async function loadData() {
+      try {
+        const res = await fetch("data.json");
+        if (!res.ok) throw new Error("Kunne ikke laste data.");
+        const data = await res.json();
+
+        const updated = new Date(data.lastUpdated);
+        document.getElementById("meta-updated").textContent =
+          `🕐 Sist oppdatert: ${updated.toLocaleDateString("nb-NO")} kl. ${updated.toLocaleTimeString("nb-NO", { hour: "2-digit", minute: "2-digit" })}`;
+        document.getElementById("meta-products").textContent =
+          `📦 ${data.totalProducts} produkter`;
+        document.getElementById("meta-stores").textContent =
+          `🏪 ${data.totalStores} butikker i Ålesund`;
+
+        allPrices = data.prices;
+        renderPrices();
+      } catch (e) {
+        resultsEl.innerHTML = `<div class="empty">❌ Kunne ikke laste prisdata.<br/><small>${esc(e.message)}</small><br/><br/><small>Kjør GitHub Actions workflow manuelt for å generere data første gang.</small></div>`;
+      }
+    }
+
+    function renderPrices() {
+      const query = searchEl.value.toLowerCase();
+      const sortBy = sortEl.value;
+
+      let filtered = allPrices.filter((p) => {
+        const hay = `${p.productName} ${p.store} ${p.storeGroup} ${p.brand}`.toLowerCase();
+        return hay.includes(query);
+      });
+
+      filtered.sort((a, b) => {
+        switch (sortBy) {
+          case "price-asc": return a.price - b.price;
+          case "price-desc": return b.price - a.price;
+          case "name-asc": return a.productName.localeCompare(b.productName, "nb");
+          case "store-asc": return (a.store || a.storeGroup).localeCompare(b.store || b.storeGroup, "nb");
+          default: return 0;
+        }
+      });
+
+      if (filtered.length === 0) {
+        resultsEl.innerHTML = `<div class="empty">Ingen treff for "${esc(searchEl.value)}"</div>`;
+        return;
+      }
+
+      const cheapestPrice = filtered[0]?.price;
+
+      resultsEl.innerHTML = filtered.map((p, i) => {
+        const isCheapest = p.price === cheapestPrice && sortBy === "price-asc";
+        const imgHtml = p.image
+          ? `<img class="card-img" src="${esc(p.image)}" alt="" loading="lazy" />`
+          : `<div class="card-img" style="display:flex;align-items:center;justify-content:center;font-size:1.5rem;">🥤</div>`;
+        const unitHtml = p.unitPrice
+          ? `<div class="unit">${p.unitPrice.toFixed(2)} kr/${esc(p.unitPriceUnit)}</div>`
+          : "";
+        const badgeHtml = isCheapest ? `<span class="badge">BILLIGST</span>` : "";
+
+        return `
+          <div class="card${isCheapest ? " cheapest" : ""}">
+            <div class="rank">#${i + 1}</div>
+            ${imgHtml}
+            <div class="card-body">
+              <div class="name">${esc(p.productName)}${badgeHtml}</div>
+              <div class="store">${esc(p.store || p.storeGroup)}</div>
+            </div>
+            <div class="card-price">
+              <div class="price">${p.price.toFixed(2)} kr</div>
+              ${unitHtml}
+            </div>
+          </div>
+        `;
+      }).join("");
+    }
+
+    searchEl.addEventListener("input", renderPrices);
+    sortEl.addEventListener("change", renderPrices);
+    loadData();
+  </script>
+</body>
+</html>
