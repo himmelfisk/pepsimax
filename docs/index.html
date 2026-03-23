@@ -218,6 +218,11 @@
         .replace(/'/g, "&#039;");
     }
 
+    function safeFixed(val, digits) {
+      var n = Number(val);
+      return isNaN(n) ? "0.00" : n.toFixed(digits || 2);
+    }
+
     async function loadData() {
       try {
         const res = await fetch("data.json");
@@ -235,7 +240,7 @@
         allPrices = data.prices;
         renderPrices();
       } catch (e) {
-        resultsEl.innerHTML = `<div class="empty">❌ Kunne ikke laste prisdata.<br/><small>${esc(e.message)}</small><br/><br/><small>Kjør GitHub Actions workflow manuelt for å generere data første gang.</small></div>`;
+        resultsEl.innerHTML = `<div class=\"empty\">❌ Kunne ikke laste prisdata.<br/><small>${esc(e.message)}</small><br/><br/><small>Kjør GitHub Actions workflow manuelt for å generere data første gang.</small></div>`;
       }
     }
 
@@ -244,47 +249,48 @@
       const sortBy = sortEl.value;
 
       let filtered = allPrices.filter((p) => {
-        const hay = `${p.productName} ${p.store} ${p.storeGroup} ${p.brand}`.toLowerCase();
+        const hay = \\`${p.productName} ${p.store} ${p.storeGroup} ${p.brand}\
+        `.toLowerCase();
         return hay.includes(query);
       });
 
       filtered.sort((a, b) => {
         switch (sortBy) {
-          case "price-asc": return a.price - b.price;
-          case "price-desc": return b.price - a.price;
-          case "name-asc": return a.productName.localeCompare(b.productName, "nb");
-          case "store-asc": return (a.store || a.storeGroup).localeCompare(b.store || b.storeGroup, "nb");
+          case "price-asc": return Number(a.price) - Number(b.price);
+          case "price-desc": return Number(b.price) - Number(a.price);
+          case "name-asc": return (a.productName || "").localeCompare(b.productName || "", "nb");
+          case "store-asc": return (a.store || a.storeGroup || "").localeCompare(b.store || b.storeGroup || "", "nb");
           default: return 0;
         }
       });
 
       if (filtered.length === 0) {
-        resultsEl.innerHTML = `<div class="empty">Ingen treff for "${esc(searchEl.value)}"</div>`;
+        resultsEl.innerHTML = `<div class=\"empty\">Ingen treff for \"${esc(searchEl.value)}\"</div>`;
         return;
       }
 
       const cheapestPrice = filtered[0]?.price;
 
       resultsEl.innerHTML = filtered.map((p, i) => {
-        const isCheapest = p.price === cheapestPrice && sortBy === "price-asc";
+        const isCheapest = Number(p.price) === Number(cheapestPrice) && sortBy === "price-asc";
         const imgHtml = p.image
-          ? `<img class="card-img" src="${esc(p.image)}" alt="" loading="lazy" />`
-          : `<div class="card-img" style="display:flex;align-items:center;justify-content:center;font-size:1.5rem;">🥤</div>`;
-        const unitHtml = p.unitPrice
-          ? `<div class="unit">${p.unitPrice.toFixed(2)} kr/${esc(p.unitPriceUnit)}</div>`
+          ? `<img class=\"card-img\" src=\"${esc(p.image)}\" alt=\"\" loading=\"lazy\" />`
+          : `<div class=\"card-img\" style=\"display:flex;align-items:center;justify-content:center;font-size:1.5rem;\">🥤</div>`;
+        const unitHtml = (p.unitPrice != null && !isNaN(Number(p.unitPrice)))
+          ? `<div class=\"unit\">${safeFixed(p.unitPrice)} kr/${esc(p.unitPriceUnit || "stk")}</div>`
           : "";
-        const badgeHtml = isCheapest ? `<span class="badge">BILLIGST</span>` : "";
+        const badgeHtml = isCheapest ? `<span class=\"badge\">BILLIGST</span>` : "";
 
         return `
-          <div class="card${isCheapest ? " cheapest" : ""}">
-            <div class="rank">#${i + 1}</div>
+          <div class=\"card${isCheapest ? " cheapest" : ""}\">
+            <div class=\"rank\">#${i + 1}</div>
             ${imgHtml}
-            <div class="card-body">
-              <div class="name">${esc(p.productName)}${badgeHtml}</div>
-              <div class="store">${esc(p.store || p.storeGroup)}</div>
+            <div class=\"card-body\">
+              <div class=\"name\">${esc(p.productName || "Ukjent")}${badgeHtml}</div>
+              <div class=\"store\">${esc(p.store || p.storeGroup || "Ukjent")}</div>
             </div>
-            <div class="card-price">
-              <div class="price">${p.price.toFixed(2)} kr</div>
+            <div class=\"card-price\">
+              <div class=\"price\">${safeFixed(p.price)} kr</div>
               ${unitHtml}
             </div>
           </div>
