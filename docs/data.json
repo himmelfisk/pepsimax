@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-24T06:58:16.906Z",
+  "lastUpdated": "2026-03-25T06:56:52.727Z",
   "location": "Ålesund, Norway",
   "totalStores": 35,
   "totalProducts": 80,
@@ -800,7 +800,7 @@
       "image": "https://engrosnett.no/image/kalde-drikker/mineralvann/5101167-5101167.jpg?lb=true&v=638181090410770000",
       "store": "Engrosnett",
       "storeGroup": "ENGROSSNETT_NO",
-      "price": 553.48,
+      "price": 546,
       "unitPrice": null,
       "unitPriceUnit": "stk"
     }
