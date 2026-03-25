@@ -186,6 +186,8 @@
       <select id="sort">
         <option value="price-asc">Pris: lav → høy</option>
         <option value="price-desc">Pris: høy → lav</option>
+        <option value="unitprice-asc">Literpris: lav → høy</option>
+        <option value="unitprice-desc">Literpris: høy → lav</option>
         <option value="name-asc">Navn: A → Å</option>
         <option value="store-asc">Butikk: A → Å</option>
       </select>
@@ -257,6 +259,16 @@
         switch (sortBy) {
           case "price-asc": return Number(a.price) - Number(b.price);
           case "price-desc": return Number(b.price) - Number(a.price);
+          case "unitprice-asc":
+          case "unitprice-desc": {
+            const aValid = a.unitPrice != null && !isNaN(Number(a.unitPrice));
+            const bValid = b.unitPrice != null && !isNaN(Number(b.unitPrice));
+            if (!aValid && !bValid) return 0;
+            if (!aValid) return 1;
+            if (!bValid) return -1;
+            const diff = Number(a.unitPrice) - Number(b.unitPrice);
+            return sortBy === "unitprice-asc" ? diff : -diff;
+          }
           case "name-asc": return (a.productName || "").localeCompare(b.productName || "", "nb");
           case "store-asc": return (a.store || a.storeGroup || "").localeCompare(b.store || b.storeGroup || "", "nb");
           default: return 0;
@@ -269,9 +281,12 @@
       }
 
       const cheapestPrice = filtered[0]?.price;
+      const firstUnitPrice = filtered[0]?.unitPrice;
+      const cheapestUnitPrice = firstUnitPrice != null && !isNaN(Number(firstUnitPrice)) ? firstUnitPrice : null;
 
       resultsEl.innerHTML = filtered.map((p, i) => {
-        const isCheapest = Number(p.price) === Number(cheapestPrice) && sortBy === "price-asc";
+        const isCheapest = (sortBy === "price-asc" && Number(p.price) === Number(cheapestPrice))
+          || (sortBy === "unitprice-asc" && cheapestUnitPrice !== null && p.unitPrice != null && Number(p.unitPrice) === Number(cheapestUnitPrice));
         const imgHtml = p.image
           ? `<img class="card-img" src="${esc(p.image)}" alt="" loading="lazy" />`
           : `<div class="card-img" style="display:flex;align-items:center;justify-content:center;font-size:1.5rem;">🥤</div>`;
