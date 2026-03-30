@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-29T06:57:24.153Z",
+  "lastUpdated": "2026-03-30T07:21:18.762Z",
   "location": "Ålesund, Norway",
   "totalStores": 35,
   "totalProducts": 80,
@@ -585,16 +585,6 @@
       "unitPriceUnit": "l"
     },
     {
-      "productName": "Pepsi Max 4 x 1,5L, 6 l",
-      "brand": "",
-      "image": "https://images.oda.com/local_products/38805295-ddda-45e1-8aa8-bd9c51caf2ab.jpg?fit=bounds&format=auto&optimize=medium&width=810&s=0x3581dec7b9804bef4c3d8f907f19c9b51b2cd047",
-      "store": "Oda",
-      "storeGroup": "ODA_NO",
-      "price": 87.9,
-      "unitPrice": 14.65,
-      "unitPriceUnit": "l"
-    },
-    {
       "productName": "Pepsi Max 6 x 1,5l",
       "brand": "PEPSI",
       "image": "https://cdcimg.coop.no/rte/RTE2/7044615874680.png",
@@ -603,6 +593,16 @@
       "price": 89.8,
       "unitPrice": null,
       "unitPriceUnit": "stk"
+    },
+    {
+      "productName": "Pepsi Max 4 x 1,5L, 6 l",
+      "brand": "Pepsi",
+      "image": "https://images.oda.com/local_products/38b6e485-dba4-40fc-9639-3e2fb71dff17.jpg?fit=bounds&format=auto&optimize=medium&width=810&s=0xb8d131044bd86dc05b2da2faf9e937c67a77dc67",
+      "store": "Oda",
+      "storeGroup": "ODA_NO",
+      "price": 89.9,
+      "unitPrice": 14.98,
+      "unitPriceUnit": "l"
     },
     {
       "productName": "Pepsi Max 12stk x 0,33l, 3,96l",
