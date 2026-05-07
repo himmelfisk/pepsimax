@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-06T08:16:18.740Z",
+  "lastUpdated": "2026-05-07T08:26:19.804Z",
   "location": "Ålesund, Norway",
   "totalStores": 35,
   "totalProducts": 80,
@@ -625,6 +625,16 @@
       "unitPriceUnit": "ml"
     },
     {
+      "productName": "Pepsi Max 1,5lx4 flaske",
+      "brand": "Pepsi",
+      "image": "https://bilder.ngdata.no/7044618874687/meny/large.jpg",
+      "store": "Meny",
+      "storeGroup": "MENY_NO",
+      "price": 99,
+      "unitPrice": 16.5,
+      "unitPriceUnit": "ml"
+    },
+    {
       "productName": "Pepsi Max 0,375lx12 flaske",
       "brand": "Pepsi",
       "image": "https://bilder.ngdata.no/7044611876176/meny/large.jpg",
@@ -693,16 +703,6 @@
       "price": 109.9,
       "unitPrice": 36.63,
       "unitPriceUnit": "l"
-    },
-    {
-      "productName": "Pepsi Max 1,5lx4 flaske",
-      "brand": "Pepsi",
-      "image": "https://bilder.ngdata.no/7044618874687/meny/large.jpg",
-      "store": "Meny",
-      "storeGroup": "MENY_NO",
-      "price": 114,
-      "unitPrice": 19,
-      "unitPriceUnit": "ml"
     },
     {
       "productName": "Pepsi Max 0,33lx12 boks Sleek",
