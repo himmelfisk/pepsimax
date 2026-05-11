@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-10T08:02:10.658Z",
+  "lastUpdated": "2026-05-11T09:31:05.842Z",
   "location": "Ålesund, Norway",
   "totalStores": 35,
   "totalProducts": 80,
@@ -555,6 +555,16 @@
       "unitPriceUnit": "stk"
     },
     {
+      "productName": "Pepsi Max 1,5lx4 flaske",
+      "brand": "Pepsi",
+      "image": "https://bilder.ngdata.no/7044618874687/kmh/large.jpg",
+      "store": "SPAR",
+      "storeGroup": "SPAR_NO",
+      "price": 79.9,
+      "unitPrice": 13.32,
+      "unitPriceUnit": "ml"
+    },
+    {
       "productName": "Pepsi Max Konsentrat, 440 ml",
       "brand": "Sodastream",
       "image": "https://bilder.kolonial.no/produkter/687cc734-8cd2-4b37-aa44-545ebe008874.jpg?auto=format&fit=max&w=640&s=b034a9b8b19c919d0775b41a8536bcfb",
@@ -663,16 +673,6 @@
       "price": 99.9,
       "unitPrice": null,
       "unitPriceUnit": "stk"
-    },
-    {
-      "productName": "Pepsi Max 1,5lx4 flaske",
-      "brand": "Pepsi",
-      "image": "https://bilder.ngdata.no/7044618874687/kmh/large.jpg",
-      "store": "SPAR",
-      "storeGroup": "SPAR_NO",
-      "price": 99.9,
-      "unitPrice": 16.65,
-      "unitPriceUnit": "ml"
     },
     {
       "productName": "Pepsi Max 12stk x 0,33l",
