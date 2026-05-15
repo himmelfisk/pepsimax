@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-14T08:31:37.665Z",
+  "lastUpdated": "2026-05-15T08:43:29.278Z",
   "location": "Ålesund, Norway",
   "totalStores": 35,
   "totalProducts": 80,
@@ -737,11 +737,11 @@
     {
       "productName": "Pepsi Max 1,5lx8 flaske",
       "brand": "Pepsi",
-      "image": "https://bilder.ngdata.no/9401/meny/large.jpg",
+      "image": "https://bilder.ngdata.no/7044615874673/meny/large.jpg",
       "store": "Meny",
       "storeGroup": "MENY_NO",
       "price": 135,
-      "unitPrice": 135000,
+      "unitPrice": 11.25,
       "unitPriceUnit": "ml"
     },
     {
