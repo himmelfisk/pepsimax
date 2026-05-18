@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-17T08:13:58.835Z",
+  "lastUpdated": "2026-05-18T09:51:34.509Z",
   "location": "Ålesund, Norway",
   "totalStores": 35,
   "totalProducts": 80,
@@ -145,6 +145,16 @@
       "unitPriceUnit": "ml"
     },
     {
+      "productName": "Pepsi Max 1,5l flaske",
+      "brand": "Pepsi",
+      "image": "https://bilder.ngdata.no/7044610874685/kmh/large.jpg",
+      "store": "Joker",
+      "storeGroup": "JOKER_NO",
+      "price": 23.94,
+      "unitPrice": 15.96,
+      "unitPriceUnit": "ml"
+    },
+    {
       "productName": "Pepsi Max 0,6l",
       "brand": "PEPSI",
       "image": "https://cdcimg.coop.no/rte/RTE2/7044610876184.png",
@@ -153,6 +163,16 @@
       "price": 24.2,
       "unitPrice": null,
       "unitPriceUnit": "stk"
+    },
+    {
+      "productName": "Pepsi Max Lime 1,5l flaske",
+      "brand": "Pepsi",
+      "image": "https://bilder.ngdata.no/7044610875057/kmh/large.jpg",
+      "store": "Joker",
+      "storeGroup": "JOKER_NO",
+      "price": 24.54,
+      "unitPrice": 16.36,
+      "unitPriceUnit": "ml"
     },
     {
       "productName": "Pepsi Max Lime 0,5 l",
@@ -308,16 +328,6 @@
       "productName": "Pepsi Max 1,5l flaske",
       "brand": "Pepsi",
       "image": "https://bilder.ngdata.no/7044610874685/kmh/large.jpg",
-      "store": "Joker",
-      "storeGroup": "JOKER_NO",
-      "price": 39.9,
-      "unitPrice": 26.6,
-      "unitPriceUnit": "ml"
-    },
-    {
-      "productName": "Pepsi Max 1,5l flaske",
-      "brand": "Pepsi",
-      "image": "https://bilder.ngdata.no/7044610874685/kmh/large.jpg",
       "store": "SPAR",
       "storeGroup": "SPAR_NO",
       "price": 39.9,
@@ -332,16 +342,6 @@
       "storeGroup": "MENY_NO",
       "price": 39.9,
       "unitPrice": 26.6,
-      "unitPriceUnit": "ml"
-    },
-    {
-      "productName": "Pepsi Max Lime 1,5l flaske",
-      "brand": "Pepsi",
-      "image": "https://bilder.ngdata.no/7044610875057/kmh/large.jpg",
-      "store": "Joker",
-      "storeGroup": "JOKER_NO",
-      "price": 40.9,
-      "unitPrice": 27.27,
       "unitPriceUnit": "ml"
     },
     {
@@ -443,6 +443,16 @@
       "price": 55.9,
       "unitPrice": null,
       "unitPriceUnit": "stk"
+    },
+    {
+      "productName": "Pepsi Max 1,5lx4 flaske",
+      "brand": "Pepsi",
+      "image": "https://bilder.ngdata.no/7044618874687/kmh/large.jpg",
+      "store": "Joker",
+      "storeGroup": "JOKER_NO",
+      "price": 59.4,
+      "unitPrice": 9.9,
+      "unitPriceUnit": "ml"
     },
     {
       "productName": "Pepsi Max Lime 6 x 0,33l, 1,98 l",
@@ -623,16 +633,6 @@
       "price": 97.4,
       "unitPrice": null,
       "unitPriceUnit": "stk"
-    },
-    {
-      "productName": "Pepsi Max 1,5lx4 flaske",
-      "brand": "Pepsi",
-      "image": "https://bilder.ngdata.no/7044618874687/kmh/large.jpg",
-      "store": "Joker",
-      "storeGroup": "JOKER_NO",
-      "price": 99,
-      "unitPrice": 16.5,
-      "unitPriceUnit": "ml"
     },
     {
       "productName": "Pepsi Max 1,5lx4 flaske",
