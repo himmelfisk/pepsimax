@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-06T08:27:39.029Z",
+  "lastUpdated": "2026-06-07T08:48:58.131Z",
   "location": "Ålesund, Norway",
   "totalStores": 35,
   "totalProducts": 80,
@@ -830,7 +830,7 @@
       "id": 763,
       "name": "KIWI 909 Flisnes",
       "group": "KIWI",
-      "address": "Flisnesveien 1, 6013, Ålesund",
+      "address": "Flisnesvegen 1, 6013, Ålesund",
       "position": {
         "lat": "62.43193293",
         "lng": "6.41284640"
@@ -910,7 +910,7 @@
       "id": 1283,
       "name": "KIWI 902 Spjelkavik",
       "group": "KIWI",
-      "address": "Spjelkavikveien 42, 6010, Ålesund",
+      "address": "Spjelkavikvegen 42, 6010, Ålesund",
       "position": {
         "lat": "62.46352934",
         "lng": "6.36447340"
@@ -930,7 +930,7 @@
       "id": 1346,
       "name": "EUROSPAR Ålesund Storsenter",
       "group": "SPAR_NO",
-      "address": "Rasmus Rønnebergsgate 21, 6002, Ålesund",
+      "address": "Rasmus Rønnebergs Gate 21, 6002, Ålesund",
       "position": {
         "lat": "62.47231006",
         "lng": "6.15835409"
@@ -940,7 +940,7 @@
       "id": 1382,
       "name": "EUROSPAR Moa",
       "group": "SPAR_NO",
-      "address": "Langelandsveien 25, 6010, Ålesund",
+      "address": "Langelandsvegen 25, 6010, Ålesund",
       "position": {
         "lat": "62.46481718",
         "lng": "6.35153423"
@@ -1140,7 +1140,7 @@
       "id": 4468,
       "name": "EUROSPAR Larsgården",
       "group": "SPAR_NO",
-      "address": "Larsgårdsveien 19, 6021, Ålesund",
+      "address": "Larsgårdsvegen 19, 6009, Ålesund",
       "position": {
         "lat": "62.47243651",
         "lng": "6.24034343"
