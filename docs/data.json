@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-14T09:24:56.485Z",
+  "lastUpdated": "2026-06-15T11:53:31.954Z",
   "location": "Ålesund, Norway",
   "totalStores": 35,
   "totalProducts": 80,
@@ -715,6 +715,16 @@
       "unitPriceUnit": "ml"
     },
     {
+      "productName": "Pepsi Max 1,5lx8 flaske",
+      "brand": "Pepsi",
+      "image": "https://bilder.ngdata.no/7044615874673/meny/large.jpg",
+      "store": "Meny",
+      "storeGroup": "MENY_NO",
+      "price": 119,
+      "unitPrice": 9.92,
+      "unitPriceUnit": "ml"
+    },
+    {
       "productName": "Pepsi Max 12 x 0,375l, 4,5 l",
       "brand": "Pepsi Max",
       "image": "https://bilder.kolonial.no/local_products/99e79e28-7bd0-4bdd-9d6b-a3b65114c2f1.jpeg?auto=format&fit=max&w=376&s=413692750f4aa4f2dc44bc805fc39b18",
@@ -732,16 +742,6 @@
       "storeGroup": "SPAR_NO",
       "price": 129,
       "unitPrice": 14.33,
-      "unitPriceUnit": "ml"
-    },
-    {
-      "productName": "Pepsi Max 1,5lx8 flaske",
-      "brand": "Pepsi",
-      "image": "https://bilder.ngdata.no/7044615874673/meny/large.jpg",
-      "store": "Meny",
-      "storeGroup": "MENY_NO",
-      "price": 135,
-      "unitPrice": 11.25,
       "unitPriceUnit": "ml"
     },
     {
