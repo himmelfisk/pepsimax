@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-20T08:46:42.088Z",
+  "lastUpdated": "2026-06-21T09:41:36.663Z",
   "location": "Ålesund, Norway",
   "totalStores": 35,
   "totalProducts": 80,
@@ -621,7 +621,7 @@
       "store": "Joker",
       "storeGroup": "JOKER_NO",
       "price": 99,
-      "unitPrice": 16.5,
+      "unitPrice": null,
       "unitPriceUnit": "ml"
     },
     {
