@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-23T09:28:58.216Z",
+  "lastUpdated": "2026-06-24T08:58:13.792Z",
   "location": "Ålesund, Norway",
   "totalStores": 35,
   "totalProducts": 80,
@@ -605,6 +605,16 @@
       "unitPriceUnit": "l"
     },
     {
+      "productName": "Pepsi Max 1,5lx6 flaske",
+      "brand": "Pepsi",
+      "image": "https://bilder.ngdata.no/7044615874680/kmh/large.jpg",
+      "store": "SPAR",
+      "storeGroup": "SPAR_NO",
+      "price": 89.9,
+      "unitPrice": 9.99,
+      "unitPriceUnit": "ml"
+    },
+    {
       "productName": "Pepsi Max 12stk x 0,33l, 3,96l",
       "brand": "PEPSI",
       "image": "https://cdcimg.coop.no/rte/RTE2/7044610800066.png",
@@ -733,16 +743,6 @@
       "price": 123.5,
       "unitPrice": null,
       "unitPriceUnit": "stk"
-    },
-    {
-      "productName": "Pepsi Max 1,5lx6 flaske",
-      "brand": "Pepsi",
-      "image": "https://bilder.ngdata.no/7044615874680/kmh/large.jpg",
-      "store": "SPAR",
-      "storeGroup": "SPAR_NO",
-      "price": 129,
-      "unitPrice": 14.33,
-      "unitPriceUnit": "ml"
     },
     {
       "productName": "Pepsi Max boks",
