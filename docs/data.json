@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-02T08:12:35.062Z",
+  "lastUpdated": "2026-08-03T09:32:28.914Z",
   "location": "Ålesund, Norway",
   "totalStores": 35,
   "totalProducts": 80,
@@ -555,16 +555,6 @@
       "unitPriceUnit": "stk"
     },
     {
-      "productName": "Pepsi Max 1,5lx4 flaske",
-      "brand": "Pepsi",
-      "image": "https://bilder.ngdata.no/7044618874687/kmh/large.jpg",
-      "store": "SPAR",
-      "storeGroup": "SPAR_NO",
-      "price": 79.9,
-      "unitPrice": 13.32,
-      "unitPriceUnit": "ml"
-    },
-    {
       "productName": "Pepsi Max Konsentrat, 440 ml",
       "brand": "Sodastream",
       "image": "https://images.oda.com/produkter/687cc734-8cd2-4b37-aa44-545ebe008874.jpg?fit=bounds&format=auto&optimize=medium&width=640&s=0xd9856e90438d267227a2114252101a1022fdc6b8",
@@ -683,6 +673,16 @@
       "price": 99.9,
       "unitPrice": null,
       "unitPriceUnit": "stk"
+    },
+    {
+      "productName": "Pepsi Max 1,5lx4 flaske",
+      "brand": "Pepsi",
+      "image": "https://bilder.ngdata.no/7044618874687/kmh/large.jpg",
+      "store": "SPAR",
+      "storeGroup": "SPAR_NO",
+      "price": 99.9,
+      "unitPrice": 16.65,
+      "unitPriceUnit": "ml"
     },
     {
       "productName": "Pepsi Max 12stk x 0,33l",
