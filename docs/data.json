@@ -1,9 +1,19 @@
 {
-  "lastUpdated": "2026-08-16T06:29:29.655Z",
+  "lastUpdated": "2026-08-17T06:41:20.504Z",
   "location": "Ålesund, Norway",
   "totalStores": 35,
   "totalProducts": 80,
   "prices": [
+    {
+      "productName": "Pepsi Max 0,33l boks",
+      "brand": "Pepsi",
+      "image": "https://bilder.ngdata.no/7044610876290/meny/large.jpg",
+      "store": "Meny",
+      "storeGroup": "MENY_NO",
+      "price": 10,
+      "unitPrice": 30.3,
+      "unitPriceUnit": "ml"
+    },
     {
       "productName": "Pepsi Max 0,33l",
       "brand": "PEPSI",
@@ -132,16 +142,6 @@
       "storeGroup": "JOKER_NO",
       "price": 21.9,
       "unitPrice": 66.36,
-      "unitPriceUnit": "ml"
-    },
-    {
-      "productName": "Pepsi Max 0,33l boks",
-      "brand": "Pepsi",
-      "image": "https://bilder.ngdata.no/7044610876290/meny/large.jpg",
-      "store": "Meny",
-      "storeGroup": "MENY_NO",
-      "price": 22.5,
-      "unitPrice": 68.18,
       "unitPriceUnit": "ml"
     },
     {
