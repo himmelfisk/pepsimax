@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-01T10:57:09.518Z",
+  "lastUpdated": "2026-09-02T10:25:38.893Z",
   "location": "Ålesund, Norway",
   "totalStores": 35,
   "totalProducts": 80,
@@ -105,16 +105,6 @@
       "unitPriceUnit": "stk"
     },
     {
-      "productName": "Pepsi Max 0,33l boks",
-      "brand": "Pepsi",
-      "image": "https://bilder.ngdata.no/7044610876290/kmh/large.jpg",
-      "store": "Joker",
-      "storeGroup": "JOKER_NO",
-      "price": 21.9,
-      "unitPrice": 66.36,
-      "unitPriceUnit": "stk"
-    },
-    {
       "productName": "Pepsi Max Lime 0,5l",
       "brand": "PEPSI",
       "image": "https://cdcimg.coop.no/rte/RTE2/7044610875040.png",
@@ -143,6 +133,16 @@
       "price": 22.5,
       "unitPrice": 68.18,
       "unitPriceUnit": "ml"
+    },
+    {
+      "productName": "Pepsi Max 0,33l boks",
+      "brand": "Pepsi",
+      "image": "https://bilder.ngdata.no/7044610876290/kmh/large.jpg",
+      "store": "Joker",
+      "storeGroup": "JOKER_NO",
+      "price": 22.9,
+      "unitPrice": 69.39,
+      "unitPriceUnit": "stk"
     },
     {
       "productName": "Pepsi Max 0,6l",
@@ -330,8 +330,8 @@
       "image": "https://bilder.ngdata.no/7044610875057/kmh/large.jpg",
       "store": "Joker",
       "storeGroup": "JOKER_NO",
-      "price": 40.9,
-      "unitPrice": 27.27,
+      "price": 41.9,
+      "unitPrice": 27.93,
       "unitPriceUnit": "ml"
     },
     {
