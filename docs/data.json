@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-09T10:37:26.960Z",
+  "lastUpdated": "2026-09-10T10:25:00.863Z",
   "location": "Ålesund, Norway",
   "totalStores": 35,
   "totalProducts": 80,
@@ -275,16 +275,6 @@
       "unitPriceUnit": "stk"
     },
     {
-      "productName": "Pepsi Max 1,5 l",
-      "brand": "",
-      "image": "https://images.oda.com/local_products/60c2c76b-a8b9-4e47-b3c3-737a49f26249.jpg?fit=bounds&format=auto&optimize=medium&width=276&s=0x70b92019b2da46ce5f5224dea19ae33d26a22b2e",
-      "store": "Oda",
-      "storeGroup": "ODA_NO",
-      "price": 35.4,
-      "unitPrice": 35.4,
-      "unitPriceUnit": "l"
-    },
-    {
       "productName": "Pepsi Max Lime 1,5l flaske",
       "brand": "Pepsi",
       "image": "https://bilder.ngdata.no/7044610875057/kmh/large.jpg",
@@ -333,6 +323,16 @@
       "price": 41.9,
       "unitPrice": 27.93,
       "unitPriceUnit": "ml"
+    },
+    {
+      "productName": "Pepsi Max Maks 10 per kunde, 1,5 l",
+      "brand": "Pepsi",
+      "image": "https://images.oda.com/local_products/7a533570-dbe8-4dcd-9bc5-5d21532f5aa4.jpg?fit=bounds&format=auto&optimize=medium&width=276&s=0xf6a2804443e5dcd6af48be34a08e6414890ef807",
+      "store": "Oda",
+      "storeGroup": "ODA_NO",
+      "price": 42.1,
+      "unitPrice": 42.1,
+      "unitPriceUnit": "l"
     },
     {
       "productName": "Pepsi Max 1,5l flaske",
