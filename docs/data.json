@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-11T10:27:20.464Z",
+  "lastUpdated": "2026-09-12T09:56:25.653Z",
   "location": "Ålesund, Norway",
   "totalStores": 35,
   "totalProducts": 80,
@@ -217,10 +217,10 @@
     {
       "productName": "Pepsi Max 0,5 l",
       "brand": "Pepsi",
-      "image": "https://images.oda.com/local_products/c1a1e0b7-453e-45d3-a310-164bc47c45ca.jpg?fit=bounds&format=auto&optimize=medium&width=329&s=0x9e7c5d4b0bc922aeacd2963c330c2c9bd6cfe211",
+      "image": "https://images.oda.com/local_products/85f8783b-5f3a-45c2-b9ef-1b1a2e50f7be.jpg?fit=bounds&format=auto&optimize=medium&width=329&s=0x436386e3fe47a67993e201709013f55c412d331d",
       "store": "Oda",
       "storeGroup": "ODA_NO",
-      "price": 30.1,
+      "price": 30.2,
       "unitPrice": null,
       "unitPriceUnit": "l"
     },
