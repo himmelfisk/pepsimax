@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-15T10:52:18.810Z",
+  "lastUpdated": "2026-09-16T10:41:33.104Z",
   "location": "Ålesund, Norway",
   "totalStores": 35,
   "totalProducts": 80,
@@ -70,8 +70,8 @@
       "image": "https://bilder.ngdata.no/7044610876290/kmh/large.jpg",
       "store": "SPAR",
       "storeGroup": "SPAR_NO",
-      "price": 19.9,
-      "unitPrice": 60.3,
+      "price": 20.9,
+      "unitPrice": 63.33,
       "unitPriceUnit": "ml"
     },
     {
@@ -195,16 +195,6 @@
       "unitPriceUnit": "ml"
     },
     {
-      "productName": "Pepsi Max 0,5l flaske",
-      "brand": "Pepsi",
-      "image": "https://bilder.ngdata.no/7044610874661/kmh/large.jpg",
-      "store": "SPAR",
-      "storeGroup": "SPAR_NO",
-      "price": 29.9,
-      "unitPrice": 59.8,
-      "unitPriceUnit": "ml"
-    },
-    {
       "productName": "Pepsi Max Lime 0,5l flaske",
       "brand": "Pepsi",
       "image": "https://bilder.ngdata.no/7044610875040/kmh/large.jpg",
@@ -223,6 +213,16 @@
       "price": 30.2,
       "unitPrice": null,
       "unitPriceUnit": "l"
+    },
+    {
+      "productName": "Pepsi Max 0,5l flaske",
+      "brand": "Pepsi",
+      "image": "https://bilder.ngdata.no/7044610874661/kmh/large.jpg",
+      "store": "SPAR",
+      "storeGroup": "SPAR_NO",
+      "price": 30.9,
+      "unitPrice": 61.8,
+      "unitPriceUnit": "ml"
     },
     {
       "productName": "Pepsi Max 0,6l flaske",
@@ -275,16 +275,6 @@
       "unitPriceUnit": "stk"
     },
     {
-      "productName": "Pepsi Max Lime 1,5l flaske",
-      "brand": "Pepsi",
-      "image": "https://bilder.ngdata.no/7044610875057/kmh/large.jpg",
-      "store": "SPAR",
-      "storeGroup": "SPAR_NO",
-      "price": 36.9,
-      "unitPrice": null,
-      "unitPriceUnit": "stk"
-    },
-    {
       "productName": "Pepsi Max 1,5l flaske",
       "brand": "Pepsi",
       "image": "https://bilder.ngdata.no/7044610874685/kmh/large.jpg",
@@ -303,6 +293,16 @@
       "price": 39.9,
       "unitPrice": 26.6,
       "unitPriceUnit": "ml"
+    },
+    {
+      "productName": "Pepsi Max Lime 1,5l flaske",
+      "brand": "Pepsi",
+      "image": "https://bilder.ngdata.no/7044610875057/kmh/large.jpg",
+      "store": "SPAR",
+      "storeGroup": "SPAR_NO",
+      "price": 39.9,
+      "unitPrice": 26.6,
+      "unitPriceUnit": "stk"
     },
     {
       "productName": "Pepsi Max Lime 1,5 l",
