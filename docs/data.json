@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-22T10:47:51.999Z",
+  "lastUpdated": "2026-09-23T10:37:35.723Z",
   "location": "Ålesund, Norway",
   "totalStores": 35,
   "totalProducts": 80,
@@ -235,16 +235,6 @@
       "unitPriceUnit": "ml"
     },
     {
-      "productName": "Pepsi Max Lime 0,5l flaske",
-      "brand": "Pepsi",
-      "image": "https://bilder.ngdata.no/7044610875040/meny/large.jpg",
-      "store": "Meny",
-      "storeGroup": "MENY_NO",
-      "price": 31.9,
-      "unitPrice": 63.8,
-      "unitPriceUnit": "ml"
-    },
-    {
       "productName": "Pepsi Max Lime 1,5l",
       "brand": "PEPSI",
       "image": "https://cdcimg.coop.no/rte/RTE2/7044610875057.png",
@@ -258,6 +248,16 @@
       "productName": "Pepsi Max 0,5l flaske",
       "brand": "Pepsi",
       "image": "https://bilder.ngdata.no/7044610874661/meny/large.jpg",
+      "store": "Meny",
+      "storeGroup": "MENY_NO",
+      "price": 32.9,
+      "unitPrice": 65.8,
+      "unitPriceUnit": "ml"
+    },
+    {
+      "productName": "Pepsi Max Lime 0,5l flaske",
+      "brand": "Pepsi",
+      "image": "https://bilder.ngdata.no/7044610875040/meny/large.jpg",
       "store": "Meny",
       "storeGroup": "MENY_NO",
       "price": 32.9,
