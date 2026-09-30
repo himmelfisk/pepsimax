@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-29T11:58:25.443Z",
+  "lastUpdated": "2026-09-30T11:46:43.961Z",
   "location": "Ålesund, Norway",
   "totalStores": 35,
   "totalProducts": 80,
@@ -185,6 +185,16 @@
       "unitPriceUnit": "stk"
     },
     {
+      "productName": "Pepsi Max 0,5 l",
+      "brand": "Pepsi",
+      "image": "https://images.oda.com/local_products/f0211f30-45c1-4254-addf-e98a406f7cec.jpg?fit=bounds&format=auto&optimize=medium&width=329&s=0x7e02495eac605f3be6a227679824f1bef2faa0d3",
+      "store": "Oda",
+      "storeGroup": "ODA_NO",
+      "price": 29.1,
+      "unitPrice": null,
+      "unitPriceUnit": "l"
+    },
+    {
       "productName": "Pepsi Max 0,5l flaske",
       "brand": "Pepsi",
       "image": "https://bilder.ngdata.no/7044610874661/kmh/large.jpg",
@@ -203,16 +213,6 @@
       "price": 29.9,
       "unitPrice": 59.8,
       "unitPriceUnit": "ml"
-    },
-    {
-      "productName": "Pepsi Max 0,5 l",
-      "brand": "Pepsi",
-      "image": "https://images.oda.com/local_products/85f8783b-5f3a-45c2-b9ef-1b1a2e50f7be.jpg?fit=bounds&format=auto&optimize=medium&width=329&s=0x436386e3fe47a67993e201709013f55c412d331d",
-      "store": "Oda",
-      "storeGroup": "ODA_NO",
-      "price": 30.2,
-      "unitPrice": null,
-      "unitPriceUnit": "l"
     },
     {
       "productName": "Pepsi Max 0,5l flaske",
@@ -775,16 +775,6 @@
       "unitPriceUnit": "stk"
     },
     {
-      "productName": "Pepsi Max 0,30l 24stk",
-      "brand": "PEPSI",
-      "image": "https://engrosnett.no/image/mineralvann/814467-814467.jpg?lb=true&v=638181109818930000",
-      "store": "Engrosnett",
-      "storeGroup": "ENGROSSNETT_NO",
-      "price": 463.96,
-      "unitPrice": null,
-      "unitPriceUnit": "stk"
-    },
-    {
       "productName": "Pepsi Max Boks 24x0,33l",
       "brand": "",
       "image": "https://engrosnett.no/image/drikkevarer/mineralvann/5897293-5897293.jpg?lb=true&v=638181107892370000",
@@ -801,6 +791,16 @@
       "store": "Engrosnett",
       "storeGroup": "ENGROSSNETT_NO",
       "price": 546,
+      "unitPrice": null,
+      "unitPriceUnit": "stk"
+    },
+    {
+      "productName": "Pepsi Max 0,30l 24stk",
+      "brand": "PEPSI",
+      "image": "https://engrosnett.no/image/mineralvann/814467-814467.jpg?lb=true&v=638181109818930000",
+      "store": "Engrosnett",
+      "storeGroup": "ENGROSSNETT_NO",
+      "price": 562,
       "unitPrice": null,
       "unitPriceUnit": "stk"
     }
