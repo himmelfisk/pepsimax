@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-30T11:46:43.961Z",
+  "lastUpdated": "2026-10-01T12:15:50.580Z",
   "location": "Ålesund, Norway",
   "totalStores": 35,
   "totalProducts": 80,
@@ -785,22 +785,22 @@
       "unitPriceUnit": "stk"
     },
     {
+      "productName": "Pepsi Max 0,30l 24stk",
+      "brand": "PEPSI",
+      "image": "https://engrosnett.no/image/mineralvann/814467-814467.jpg?lb=true&v=638181109818930000",
+      "store": "Engrosnett",
+      "storeGroup": "ENGROSSNETT_NO",
+      "price": 477.7,
+      "unitPrice": null,
+      "unitPriceUnit": "stk"
+    },
+    {
       "productName": "Pepsi Max 24x0,5l",
       "brand": "",
       "image": "https://engrosnett.no/image/kalde-drikker/mineralvann/5101167-5101167.jpg?lb=true&v=638181090410770000",
       "store": "Engrosnett",
       "storeGroup": "ENGROSSNETT_NO",
       "price": 546,
-      "unitPrice": null,
-      "unitPriceUnit": "stk"
-    },
-    {
-      "productName": "Pepsi Max 0,30l 24stk",
-      "brand": "PEPSI",
-      "image": "https://engrosnett.no/image/mineralvann/814467-814467.jpg?lb=true&v=638181109818930000",
-      "store": "Engrosnett",
-      "storeGroup": "ENGROSSNETT_NO",
-      "price": 562,
       "unitPrice": null,
       "unitPriceUnit": "stk"
     }
