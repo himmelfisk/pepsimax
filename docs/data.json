@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-09T12:26:30.768Z",
+  "lastUpdated": "2026-10-10T11:45:32.499Z",
   "location": "Ålesund, Norway",
   "totalStores": 35,
   "totalProducts": 80,
@@ -187,7 +187,7 @@
     {
       "productName": "Pepsi Max 0,5 l",
       "brand": "Pepsi",
-      "image": "https://images.oda.com/local_products/b6abfa3a-7410-4566-aff7-046da38e8f4f.jpg?fit=bounds&format=auto&optimize=medium&width=329&s=0x980528d229cf3a025313a989c8af2989c387f35c",
+      "image": "https://images.oda.com/local_products/75fbf17c-63be-4b81-ab1a-92c2c85e3bda.jpg?fit=bounds&format=auto&optimize=medium&width=329&s=0x811ea8bb588cdf140d3500e3021f65470be29176",
       "store": "Oda",
       "storeGroup": "ODA_NO",
       "price": 29.1,
@@ -277,7 +277,7 @@
     {
       "productName": "Pepsi Max Lime 1,5 l",
       "brand": "Pepsi",
-      "image": "https://images.oda.com/local_products/83da1196-73f9-4778-b105-b853acf3ad86.jpg?fit=bounds&format=auto&optimize=medium&width=309&s=0xefc9ffe8baab1acee239c5361e166e78249304e2",
+      "image": "https://images.oda.com/local_products/dd309200-8ff7-4b80-a202-60fb002319a8.jpg?fit=bounds&format=auto&optimize=medium&width=309&s=0xfa0bd0d08ec8c3ca2353e87ced581d15350298d1",
       "store": "Oda",
       "storeGroup": "ODA_NO",
       "price": 39.7,
@@ -775,6 +775,16 @@
       "unitPriceUnit": "stk"
     },
     {
+      "productName": "Pepsi Max 24x0,5l",
+      "brand": "",
+      "image": "https://engrosnett.no/image/kalde-drikker/mineralvann/5101167-5101167.jpg?lb=true&v=638181090410770000",
+      "store": "Engrosnett",
+      "storeGroup": "ENGROSSNETT_NO",
+      "price": 464.1,
+      "unitPrice": null,
+      "unitPriceUnit": "stk"
+    },
+    {
       "productName": "Pepsi Max Boks 24x0,33l",
       "brand": "",
       "image": "https://engrosnett.no/image/drikkevarer/mineralvann/5897293-5897293.jpg?lb=true&v=638181107892370000",
@@ -791,16 +801,6 @@
       "store": "Engrosnett",
       "storeGroup": "ENGROSSNETT_NO",
       "price": 477.7,
-      "unitPrice": null,
-      "unitPriceUnit": "stk"
-    },
-    {
-      "productName": "Pepsi Max 24x0,5l",
-      "brand": "",
-      "image": "https://engrosnett.no/image/kalde-drikker/mineralvann/5101167-5101167.jpg?lb=true&v=638181090410770000",
-      "store": "Engrosnett",
-      "storeGroup": "ENGROSSNETT_NO",
-      "price": 546,
       "unitPrice": null,
       "unitPriceUnit": "stk"
     }
