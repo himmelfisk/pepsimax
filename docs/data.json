@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-15T10:43:48.823Z",
+  "lastUpdated": "2026-10-16T10:30:51.721Z",
   "location": "Ålesund, Norway",
   "totalStores": 35,
   "totalProducts": 80,
@@ -207,7 +207,7 @@
     {
       "productName": "Pepsi Max 0,5 l",
       "brand": "Pepsi",
-      "image": "https://images.oda.com/local_products/2656ae59-b957-49c9-b857-f79dd55db97d.jpg?fit=bounds&format=auto&optimize=medium&width=329&s=0x5c8b15ba468c9308e0e929d43550ed0d4f6b7fce",
+      "image": "https://images.oda.com/local_products/88bd8bb9-459e-415a-9d32-d669e8bd28df.jpg?fit=bounds&format=auto&optimize=medium&width=329&s=0x49a425b5b084efda69eb4ad5b4410baaf8fde960",
       "store": "Oda",
       "storeGroup": "ODA_NO",
       "price": 30.2,
@@ -287,7 +287,7 @@
     {
       "productName": "Pepsi Max Lime 1,5 l",
       "brand": "Pepsi",
-      "image": "https://images.oda.com/local_products/1a1d709a-b0ae-44d0-8995-7908d17e1524.jpg?fit=bounds&format=auto&optimize=medium&width=309&s=0xa518b306e235c168750fa6f476c1edcd03bbe9b2",
+      "image": "https://images.oda.com/local_products/31f577d4-a223-4a22-a55a-824a1d1cb37f.jpg?fit=bounds&format=auto&optimize=medium&width=309&s=0x7bbc5f619cfc53746bd8359f13c26ff357a258d0",
       "store": "Oda",
       "storeGroup": "ODA_NO",
       "price": 40.2,
@@ -300,16 +300,6 @@
       "image": "https://bilder.ngdata.no/7044610875057/kmh/large.jpg",
       "store": "Joker",
       "storeGroup": "JOKER_NO",
-      "price": 41.9,
-      "unitPrice": 27.93,
-      "unitPriceUnit": "ml"
-    },
-    {
-      "productName": "Pepsi Max 1,5l flaske",
-      "brand": "Pepsi",
-      "image": "https://bilder.ngdata.no/7044610874685/kmh/large.jpg",
-      "store": "SPAR",
-      "storeGroup": "SPAR_NO",
       "price": 41.9,
       "unitPrice": 27.93,
       "unitPriceUnit": "ml"
@@ -333,6 +323,16 @@
       "price": 42.9,
       "unitPrice": 42.9,
       "unitPriceUnit": "l"
+    },
+    {
+      "productName": "Pepsi Max 1,5l flaske",
+      "brand": "Pepsi",
+      "image": "https://bilder.ngdata.no/7044610874685/kmh/large.jpg",
+      "store": "SPAR",
+      "storeGroup": "SPAR_NO",
+      "price": 43.9,
+      "unitPrice": 29.27,
+      "unitPriceUnit": "ml"
     },
     {
       "productName": "Pepsi Max 1,5l flaske",
