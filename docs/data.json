@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-16T10:30:51.721Z",
+  "lastUpdated": "2026-10-17T10:01:14.740Z",
   "location": "Ålesund, Norway",
   "totalStores": 35,
   "totalProducts": 80,
@@ -185,16 +185,6 @@
       "unitPriceUnit": "stk"
     },
     {
-      "productName": "Pepsi Max 0,5l flaske",
-      "brand": "Pepsi",
-      "image": "https://bilder.ngdata.no/7044610874661/kmh/large.jpg",
-      "store": "Joker",
-      "storeGroup": "JOKER_NO",
-      "price": 29.9,
-      "unitPrice": 59.8,
-      "unitPriceUnit": "ml"
-    },
-    {
       "productName": "Pepsi Max Lime 0,5l flaske",
       "brand": "Pepsi",
       "image": "https://bilder.ngdata.no/7044610875040/kmh/large.jpg",
@@ -207,12 +197,22 @@
     {
       "productName": "Pepsi Max 0,5 l",
       "brand": "Pepsi",
-      "image": "https://images.oda.com/local_products/88bd8bb9-459e-415a-9d32-d669e8bd28df.jpg?fit=bounds&format=auto&optimize=medium&width=329&s=0x49a425b5b084efda69eb4ad5b4410baaf8fde960",
+      "image": "https://images.oda.com/local_products/3079cbba-faa9-40c6-b9a7-60945d7c2864.jpg?fit=bounds&format=auto&optimize=medium&width=329&s=0x641e2d48fa074ff3240f5d4367a9d7835ce502fe",
       "store": "Oda",
       "storeGroup": "ODA_NO",
-      "price": 30.2,
+      "price": 29.9,
       "unitPrice": null,
       "unitPriceUnit": "l"
+    },
+    {
+      "productName": "Pepsi Max 0,5l flaske",
+      "brand": "Pepsi",
+      "image": "https://bilder.ngdata.no/7044610874661/kmh/large.jpg",
+      "store": "Joker",
+      "storeGroup": "JOKER_NO",
+      "price": 30.9,
+      "unitPrice": 61.8,
+      "unitPriceUnit": "ml"
     },
     {
       "productName": "Pepsi Max 0,5l flaske",
@@ -287,7 +287,7 @@
     {
       "productName": "Pepsi Max Lime 1,5 l",
       "brand": "Pepsi",
-      "image": "https://images.oda.com/local_products/31f577d4-a223-4a22-a55a-824a1d1cb37f.jpg?fit=bounds&format=auto&optimize=medium&width=309&s=0x7bbc5f619cfc53746bd8359f13c26ff357a258d0",
+      "image": "https://images.oda.com/local_products/5b0119e4-a58e-4086-b951-233bbfb9d72a.jpg?fit=bounds&format=auto&optimize=medium&width=309&s=0x7bd7e94389cf301927797e4e50d9eae9d38ff221",
       "store": "Oda",
       "storeGroup": "ODA_NO",
       "price": 40.2,
