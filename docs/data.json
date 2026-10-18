@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-17T10:01:14.740Z",
+  "lastUpdated": "2026-10-18T10:13:51.906Z",
   "location": "Ålesund, Norway",
   "totalStores": 35,
   "totalProducts": 80,
@@ -197,7 +197,7 @@
     {
       "productName": "Pepsi Max 0,5 l",
       "brand": "Pepsi",
-      "image": "https://images.oda.com/local_products/3079cbba-faa9-40c6-b9a7-60945d7c2864.jpg?fit=bounds&format=auto&optimize=medium&width=329&s=0x641e2d48fa074ff3240f5d4367a9d7835ce502fe",
+      "image": "https://images.oda.com/local_products/d163b02a-d9cc-44da-9ef6-b3b859f57ead.jpg?fit=bounds&format=auto&optimize=medium&width=329&s=0xa66ea71331be4c3c6bb788fc564f9a451e7bb6e9",
       "store": "Oda",
       "storeGroup": "ODA_NO",
       "price": 29.9,
@@ -275,24 +275,24 @@
       "unitPriceUnit": "stk"
     },
     {
-      "productName": "Pepsi Max 1,5l flaske",
-      "brand": "Pepsi",
-      "image": "https://bilder.ngdata.no/7044610874685/kmh/large.jpg",
-      "store": "Joker",
-      "storeGroup": "JOKER_NO",
-      "price": 39.9,
-      "unitPrice": 26.6,
-      "unitPriceUnit": "ml"
-    },
-    {
       "productName": "Pepsi Max Lime 1,5 l",
       "brand": "Pepsi",
-      "image": "https://images.oda.com/local_products/5b0119e4-a58e-4086-b951-233bbfb9d72a.jpg?fit=bounds&format=auto&optimize=medium&width=309&s=0x7bd7e94389cf301927797e4e50d9eae9d38ff221",
+      "image": "https://images.oda.com/local_products/c9bc0ca9-fd63-4725-b1b8-d4381ef4bf1c.jpg?fit=bounds&format=auto&optimize=medium&width=309&s=0x9a28ae986317bed08c6791ae6364adb5d946d8c1",
       "store": "Oda",
       "storeGroup": "ODA_NO",
       "price": 40.2,
       "unitPrice": 40.2,
       "unitPriceUnit": "l"
+    },
+    {
+      "productName": "Pepsi Max 1,5l flaske",
+      "brand": "Pepsi",
+      "image": "https://bilder.ngdata.no/7044610874685/kmh/large.jpg",
+      "store": "Joker",
+      "storeGroup": "JOKER_NO",
+      "price": 41.9,
+      "unitPrice": 27.93,
+      "unitPriceUnit": "ml"
     },
     {
       "productName": "Pepsi Max Lime 1,5l flaske",
