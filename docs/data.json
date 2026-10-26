@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-25T10:32:57.834Z",
+  "lastUpdated": "2026-10-26T12:05:58.237Z",
   "location": "Ålesund, Norway",
   "totalStores": 35,
   "totalProducts": 80,
@@ -63,6 +63,16 @@
       "price": 18.9,
       "unitPrice": null,
       "unitPriceUnit": "stk"
+    },
+    {
+      "productName": "Pepsi Max Lime 1,5l flaske",
+      "brand": "Pepsi",
+      "image": "https://bilder.ngdata.no/7044610875057/kmh/large.jpg",
+      "store": "Joker",
+      "storeGroup": "JOKER_NO",
+      "price": 19.9,
+      "unitPrice": 13.27,
+      "unitPriceUnit": "ml"
     },
     {
       "productName": "Pepsi Max 0,33l boks",
@@ -197,7 +207,7 @@
     {
       "productName": "Pepsi Max 0,5 l",
       "brand": "Pepsi",
-      "image": "https://images.oda.com/local_products/e28ecd3e-2cfe-43e3-b35c-c1bb7343c37d.jpg?fit=bounds&format=auto&optimize=medium&width=329&s=0x433076813584e5eaa312789f2f765c3bd5b2dca0",
+      "image": "https://images.oda.com/local_products/10be560c-c8b5-4d14-8347-e7453aff2317.jpg?fit=bounds&format=auto&optimize=medium&width=329&s=0x6d2a785574b9377f6686629c29e8319e28f3f8cf",
       "store": "Oda",
       "storeGroup": "ODA_NO",
       "price": 29.9,
@@ -277,7 +287,7 @@
     {
       "productName": "Pepsi Max Lime 1,5 l",
       "brand": "Pepsi",
-      "image": "https://images.oda.com/local_products/47c9c556-dfd8-487d-a000-b22a8e28ac16.jpg?fit=bounds&format=auto&optimize=medium&width=309&s=0xcc7534dd1b58cd007e7c77a7f5ae5d542498a5d8",
+      "image": "https://images.oda.com/local_products/debfd048-f1bc-44aa-8027-c7abecc6e858.jpg?fit=bounds&format=auto&optimize=medium&width=309&s=0xc0466a904ef3f4349d1af53dd46b75542d093f59",
       "store": "Oda",
       "storeGroup": "ODA_NO",
       "price": 40.2,
@@ -288,16 +298,6 @@
       "productName": "Pepsi Max 1,5l flaske",
       "brand": "Pepsi",
       "image": "https://bilder.ngdata.no/7044610874685/kmh/large.jpg",
-      "store": "Joker",
-      "storeGroup": "JOKER_NO",
-      "price": 41.9,
-      "unitPrice": 27.93,
-      "unitPriceUnit": "ml"
-    },
-    {
-      "productName": "Pepsi Max Lime 1,5l flaske",
-      "brand": "Pepsi",
-      "image": "https://bilder.ngdata.no/7044610875057/kmh/large.jpg",
       "store": "Joker",
       "storeGroup": "JOKER_NO",
       "price": 41.9,
