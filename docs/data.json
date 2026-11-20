@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-19T15:03:58.814Z",
+  "lastUpdated": "2026-11-20T14:45:38.844Z",
   "location": "Ålesund, Norway",
   "totalStores": 36,
   "totalProducts": 80,
@@ -160,8 +160,8 @@
       "image": "https://images.oda.com/local_products/de45b335-f6b5-4c82-9f89-eb2c3d58a2a4.jpg?fit=bounds&format=auto&optimize=medium&width=317&s=0x1e8802ea90f31fa888ecc3ae33f337eee55b4e05",
       "store": "Oda",
       "storeGroup": "ODA_NO",
-      "price": 26.9,
-      "unitPrice": 53.8,
+      "price": 27,
+      "unitPrice": 54,
       "unitPriceUnit": "l"
     },
     {
@@ -197,7 +197,7 @@
     {
       "productName": "Pepsi Max 0,5 l",
       "brand": "Pepsi",
-      "image": "https://images.oda.com/local_products/b63ab42a-7991-4a0e-9732-8277cf2e13aa.jpg?fit=bounds&format=auto&optimize=medium&width=329&s=0xf292d117efc13fa15dd7da1b18613bbcee8cb3ac",
+      "image": "https://images.oda.com/local_products/21b4f894-b3f9-4e5a-9fae-d5b0be1dbb09.jpg?fit=bounds&format=auto&optimize=medium&width=329&s=0x142a55d1f44376e10c794601045d7bf7876983e0",
       "store": "Oda",
       "storeGroup": "ODA_NO",
       "price": 30.2,
@@ -277,7 +277,7 @@
     {
       "productName": "Pepsi Max Lime 1,5 l",
       "brand": "Pepsi",
-      "image": "https://images.oda.com/local_products/698df9bc-8a7b-4265-948e-5ae8772a48a9.jpg?fit=bounds&format=auto&optimize=medium&width=309&s=0x9f447afe010fb096741861d506552b6d063409cc",
+      "image": "https://images.oda.com/local_products/0b5607a3-0080-494a-9bde-b5b9a59eb898.jpg?fit=bounds&format=auto&optimize=medium&width=309&s=0xf37279f90f3ceda9f0ab27c389e905103bf56f4e",
       "store": "Oda",
       "storeGroup": "ODA_NO",
       "price": 39.9,
@@ -600,8 +600,8 @@
       "image": "https://images.oda.com/local_products/e69c9630-5549-470a-a39a-bc54fbb322bd.jpg?fit=bounds&format=auto&optimize=medium&width=810&s=0xac94fef0ec88b9d466e7e5f99ef4e82085a27bc6",
       "store": "Oda",
       "storeGroup": "ODA_NO",
-      "price": 94.9,
-      "unitPrice": 15.82,
+      "price": 95,
+      "unitPrice": 15.83,
       "unitPriceUnit": "l"
     },
     {
