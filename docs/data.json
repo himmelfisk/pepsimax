@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-11-20T14:45:38.844Z",
+  "lastUpdated": "2026-11-21T14:01:12.567Z",
   "location": "Ålesund, Norway",
-  "totalStores": 36,
+  "totalStores": 35,
   "totalProducts": 80,
   "prices": [
     {
@@ -197,7 +197,7 @@
     {
       "productName": "Pepsi Max 0,5 l",
       "brand": "Pepsi",
-      "image": "https://images.oda.com/local_products/21b4f894-b3f9-4e5a-9fae-d5b0be1dbb09.jpg?fit=bounds&format=auto&optimize=medium&width=329&s=0x142a55d1f44376e10c794601045d7bf7876983e0",
+      "image": "https://images.oda.com/local_products/3a72f281-a97f-4bfc-9456-efec397ea5e8.jpg?fit=bounds&format=auto&optimize=medium&width=329&s=0x9285161dd2d4477841717014a27fc3614cb517a6",
       "store": "Oda",
       "storeGroup": "ODA_NO",
       "price": 30.2,
@@ -277,7 +277,7 @@
     {
       "productName": "Pepsi Max Lime 1,5 l",
       "brand": "Pepsi",
-      "image": "https://images.oda.com/local_products/0b5607a3-0080-494a-9bde-b5b9a59eb898.jpg?fit=bounds&format=auto&optimize=medium&width=309&s=0xf37279f90f3ceda9f0ab27c389e905103bf56f4e",
+      "image": "https://images.oda.com/local_products/e9170e00-5739-4a08-928a-992c4a4db9fb.jpg?fit=bounds&format=auto&optimize=medium&width=309&s=0x52ea2e384223da5454f497b9fe014d17b74ebb45",
       "store": "Oda",
       "storeGroup": "ODA_NO",
       "price": 39.9,
@@ -944,16 +944,6 @@
       "position": {
         "lat": "62.46481718",
         "lng": "6.35153423"
-      }
-    },
-    {
-      "id": 1406,
-      "name": "EUROSPAR Larsgården",
-      "group": "SPAR_NO",
-      "address": "Larsgårdsveien 19, 6021, Ålesund",
-      "position": {
-        "lat": "62.47243660",
-        "lng": "6.24034340"
       }
     },
     {
