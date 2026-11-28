@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-27T15:58:27.701Z",
+  "lastUpdated": "2026-11-28T14:55:32.154Z",
   "location": "Ålesund, Norway",
   "totalStores": 35,
   "totalProducts": 80,
@@ -197,7 +197,7 @@
     {
       "productName": "Pepsi Max 0,5 l",
       "brand": "Pepsi",
-      "image": "https://images.oda.com/local_products/fea10cfb-335c-4aac-856d-e2e9dcf3c103.jpg?fit=bounds&format=auto&optimize=medium&width=329&s=0xaec9c872a1299c002816a427d44f4a823687608a",
+      "image": "https://images.oda.com/local_products/5350b578-6de6-4ece-ad78-69d4beddbdb9.jpg?fit=bounds&format=auto&optimize=medium&width=329&s=0x045243b6dda2ff46ad27a1c47080c6c1f0565ec4",
       "store": "Oda",
       "storeGroup": "ODA_NO",
       "price": 30.5,
@@ -277,7 +277,7 @@
     {
       "productName": "Pepsi Max Lime 1,5 l",
       "brand": "Pepsi",
-      "image": "https://images.oda.com/local_products/5b71cf49-e7d8-4dfa-bedd-2a9b7945d9c4.jpg?fit=bounds&format=auto&optimize=medium&width=309&s=0xb16bf2fcf75b4cf3b6c876df828a7185fc781c29",
+      "image": "https://images.oda.com/local_products/31b8eb81-08be-450c-ae64-df17f1a05055.jpg?fit=bounds&format=auto&optimize=medium&width=309&s=0x7c30c9ec4a4b636e22805aa76bb04be6db222c78",
       "store": "Oda",
       "storeGroup": "ODA_NO",
       "price": 40.9,
@@ -320,8 +320,8 @@
       "image": "https://images.oda.com/local_products/7a533570-dbe8-4dcd-9bc5-5d21532f5aa4.jpg?fit=bounds&format=auto&optimize=medium&width=276&s=0xf6a2804443e5dcd6af48be34a08e6414890ef807",
       "store": "Oda",
       "storeGroup": "ODA_NO",
-      "price": 42.9,
-      "unitPrice": 28.6,
+      "price": 43.2,
+      "unitPrice": 28.8,
       "unitPriceUnit": "l"
     },
     {
@@ -685,16 +685,6 @@
       "unitPriceUnit": "stk"
     },
     {
-      "productName": "Pepsi Max 1,5lx4 flaske",
-      "brand": "Pepsi",
-      "image": "https://bilder.ngdata.no/7044618874687/meny/large.jpg",
-      "store": "Meny",
-      "storeGroup": "MENY_NO",
-      "price": 105,
-      "unitPrice": 17.5,
-      "unitPriceUnit": "ml"
-    },
-    {
       "productName": "Pepsi Max 0,33lx12 boks",
       "brand": "Pepsi",
       "image": "https://bilder.ngdata.no/7044610800066/meny/large.jpg",
@@ -703,6 +693,16 @@
       "price": 106.5,
       "unitPrice": null,
       "unitPriceUnit": "stk"
+    },
+    {
+      "productName": "Pepsi Max 1,5lx4 flaske",
+      "brand": "Pepsi",
+      "image": "https://bilder.ngdata.no/7044618874687/meny/large.jpg",
+      "store": "Meny",
+      "storeGroup": "MENY_NO",
+      "price": 109,
+      "unitPrice": 18.17,
+      "unitPriceUnit": "ml"
     },
     {
       "productName": "Pepsi Max 12 x 0,33l, 3,96 l",
